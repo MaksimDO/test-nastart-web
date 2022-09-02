@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>LOGO</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a  href="" class="logo">LOGO</a>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a class="header__nav-link">О компании</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link">Каталог</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link">Каталог производителя</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link">Сертификаты</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link">Производители</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link">Контакты</a></li>
+                </ul>
+                <div class="header__nav-contacts">
+                    <a class="header__nav-tel" href="tel:+70000000000">+7&nbsp;(000)&nbsp;000-00-00</a>
+                    <a class="header__nav-mail" href="mailto:test@test.ru">test@test.ru</a>
+                </div>
+
+                <div class="burger" id="burger">
+                    <div class="burger__block-btn">
+                        <div class="burger__block-btn-top"></div>
+                        <div class="burger__block-btn-middle"></div>
+                        <div class="burger__block-btn-bottom"></div>
+                    </div>
+                    <div class="burger__block-text">меню</div>
+                </div>
+                <div class="collaps display-none" id="collaps">
+                    <ul class="header__nav-list-none">
+                        <li class="header__nav-item-none"><a class="header__nav-link-none">О компании</a></li>
+                        <li class="header__nav-item-none"><a class="header__nav-link-none">Каталог</a></li>
+                        <li class="header__nav-item-none"><a class="header__nav-link-none">Каталог производителя</a></li>
+                        <li class="header__nav-item-none"><a class="header__nav-link-none">Сертификаты</a></li>
+                        <li class="header__nav-item-none"><a class="header__nav-link-none">Производители</a></li>
+                        <li class="header__nav-item-none"><a class="header__nav-link-none">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__title">
+                <div class="header__title-main">ПРОИЗВОДИТЕЛЬ ЭЛЕКТРОННЫХ КОМПОНЕНТОВ</div>
+                <div class="header__title-text">25 заводов поставщиков</div>
+            </div>
+            <div class="header_input">
+                <input class="header_input-search" id="GET-search" type="text" name="name" placeholder="Поиск по каталогу">
+                <div class="header_input-btn">
+                    <div class="btn">ПОИСК</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <section class="catalog">
+        <div class="basket">
+            <div class="backet-sum" id="backet-sum"></div>
+        </div>
+        <div class="container">
+            <div class="stick"></div>
+            <div class="catalog__title">КАТАЛОГ</div>
+            <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 7.png" alt="1">
+                    <span class="catalog__cards-text">Активные компоненты</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 6.png" alt="1">
+                    <span class="catalog__cards-text">Пассивные компоненты</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 9.png" alt="1">
+                    <span class="catalog__cards-text">Светодиоды<br>и светодиодные индикаторы</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 10.png" alt="1">
+                    <span class="catalog__cards-text">Установочные изделия</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 12.png" alt="1">
+                    <span class="catalog__cards-text">Резонаторы и генераторы</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 11.png" alt="1">
+                    <span class="catalog__cards-text">Акустические компоненты</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 13.png" alt="1">
+                    <span class="catalog__cards-text">Реле</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <div class="catalog__cards-img">
+                        <img class="catalog__cards-img-1" src="img/cards/image 70.png" alt="1">
+                        <img class="catalog__cards-img-2" src="img/cards/image 71.png" alt="1">
+                        <img class="catalog__cards-img-3" src="img/cards/image 72.png" alt="1">
+                    </div>
+                    <span class="catalog__cards-text">Кабели и аксесуары</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 7.png" alt="1">
+                    <span class="catalog__cards-text">Активные компоненты</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 6.png" alt="1">
+                    <span class="catalog__cards-text">Пассивные компоненты</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 9.png" alt="1">
+                    <span class="catalog__cards-text">Светодиоды<br>и светодиодные индикаторы</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 10.png" alt="1">
+                    <span class="catalog__cards-text">Установочные изделия</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 12.png" alt="1">
+                    <span class="catalog__cards-text">Резонаторы и генераторы</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 11.png" alt="1">
+                    <span class="catalog__cards-text">Акустические компоненты</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 13.png" alt="1">
+                    <span class="catalog__cards-text">Реле</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+                <div class="catalog__cards-card swiper-slide">
+                    <img class="catalog__cards-img" src="img/cards/image 70.png" alt="1">
+                    <span class="catalog__cards-text">Кабели и аксесуары</span>
+                    <div class="catolog__cards-stick"></div>
+                </div>
+            </div>
+            <div class="catalog__arrow">
+                <div class="catalog__arrow-left swiper-button-prev"></div>
+                <div class="catalog__arrow-right swiper-button-next"></div>
+            </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="geography">
+        <div class="container">
+            <div class="geography__container">
+                <div class="geography__bg">
+                    <img class="geography__bg-img" src="img/mask.png" alt="1">
+                </div>
+                <div class="geography__card N">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Северо-Западный<br>федеральный округ</div>
+                </div>
+                <div class="geography__card C">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Центральный<br>федеральный округ</div>
+                </div>
+                <div class="geography__card S">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Южный<br>федеральный округ</div>
+                </div>
+                <div class="geography__card U">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Уральский<br>федеральный округ</div>
+                </div>
+                <div class="geography__card P">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Приволжский<br>федеральный округ</div>
+                </div>
+                <div class="geography__card Si">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Сибирский<br>федеральный округ</div>
+                </div>
+                <div class="geography__card V">
+                    <img class="geography__card-img" src="img/geography/Vector.svg" alt="1">
+                    <div class="geography__card-text">Дальневосточный<br>федеральный округ</div>
+                </div>
+                <div class="geography__info">
+                    <span class="geography__info-title">География поставок</span>
+                    <div class="geography__info-stick"></div>
+                    <div class="geography__info-text">Мы работаем только с надежными транспортными компаниями и организуем доставку в любой регион России или за рубеж</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about__bg"></div>
+        <div class="container">         
+            <div class="stick"></div>
+            <div class="about__title">
+                <div class="about__title-main">О КОМПАНИИ</div>
+                <div class="about__title-text">С 1996 года мы занимаемся оптовыми поставками электронных компонентов от ведущих заводов изготовителей из Европы и Азии для Российских производителей.</div>
+            </div>
+            <div class="about__cards">
+                <div class="about__cards-block">
+                    <div class="about__cards-card">
+                        <img class="about__cards-card-img" src="img/about/vector1.svg" alt="1">
+                        <span class="about__cards-card-text">Изделия в наличии,<br>на складе СПБ и Мск</span>
+                    </div>
+                    <div class="about__cards-card-bg"></div>
+                </div>
+                
+                <div class="about__cards-block">
+                    <div class="about__cards-card">
+                        <img class="about__cards-card-img" src="img/about/vector2.svg" alt="1">
+                        <span class="about__cards-card-text">Комплексные поставки, предлагаем аналоги</span>
+                    </div>
+                    <div class="about__cards-card-bg"></div>
+                </div>
+                
+                <div class="about__cards-block">
+                    <div class="about__cards-card">
+                        <img class="about__cards-card-img" src="img/about/vector3.svg" alt="1">
+                        <span class="about__cards-card-text">Официальные дистрибьюторы12 заводов-изготовителей</span>
+                    </div>
+                    <div class="about__cards-card-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">                                                                 
+            <div class="form__title">
+                <div class="form__title-main">ЗАКАЖИ ОБРАТНЫЙ ЗВОНОК</div>
+                <div class="form__title-stick"></div>
+                <div class="form__title-text">Более 150 крупнейших компаний уже доверяли нам комплектацию. Давай работать вместе!</div>
+            </div>
+            <form class="form__input" action="">
+                <input class="form__input-name" id="GET-name" type="text" name="name" placeholder="Имя">
+                <input class="form__input-tel" id="GET-number" type="text" name="tel" placeholder="Телефон">
+                <button class="form__input-btn btn">ОТПРАВИТЬ</button>
+            </form>
+            <div class="form-text">Нажимая на кнопку, вы даете согласие на обработку <a class="form-text-link">персональных данных</a> и соглашаетесь с условиями <a class="form-text-link">пользовательского соглашения</a></div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__contacts">
+                    <a href="" class="logo">LOGO</a>
+
+                    <ul class="footer__contacts-list">
+                        <li class="footer__contacts-item">
+                            <img class="footer__contacts-img" src="img/footer/Group.svg" alt="1">
+                            <a class="footer__contacts-link" href="">Санкт-Петербург, ул. Тестовая д. 0 офис 0</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-tel" href="tel:+70000000000">+7&nbsp;(000)&nbsp;000-00-00</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-mail" href="mailto:test@test.ru">test@test.ru</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__contacts-list">
+                        <li class="footer__contacts-item">
+                            <img class="footer__contacts-img" src="img/footer/Group.svg" alt="1">
+                            <a class="footer__contacts-link" href="">Москва, ул. Тестовая д. 0 стр. 0</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-tel" href="tel:+70000000000">+7&nbsp;(000)&nbsp;000-00-00</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-mail" href="mailto:test@test.ru">test@test.ru</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__menu">
+                    <div class="footer__menu-title">Меню</div>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">Главная</li>
+                        <li class="footer__menu-item">О компании</li>
+                        <li class="footer__menu-item">Каталог производителя</li>
+                        <li class="footer__menu-item">Сертификаты</li>
+                        <li class="footer__menu-item">Контакты</li>
+                    </ul>
+        
+                    <div class="footer__menu-links">
+                        <a class="footer__menu-link" href="">Карта сайта</a>
+                        <br>
+                        <a class="footer__menu-link" href="">Политика конфиденциальности</a>
+                    </div>
+                </div>
+
+                <div class="footer__catalog">
+                    <div class="footer__catalog-title">Каталог</div>
+                    <ul class="footer__catalog-list">
+                        <li class="footer__catalog-item">Активные компоненты</li>
+                        <li class="footer__catalog-item">Пассивные компоненты</li>
+                        <li class="footer__catalog-item">Светодиоды и светодиодные индикаторы</li>
+                        <li class="footer__catalog-item">Установочные изделия</li>
+                        <li class="footer__catalog-item">Резонаторы и генераторы компоненты</li>
+                        <li class="footer__catalog-item">Акустические компоненты</li>
+                        <li class="footer__catalog-item">Реле</li>
+                        <li class="footer__catalog-item">Вентиляторы и аксесуары</li>
+                        <li class="footer__catalog-item">Кабели, провода, аксесуары</li>
+                        <li class="footer__catalog-item">Оборудование и материалы для пайки</li>
+                        <li class="footer__catalog-item">Элементы питания и аксесуары</li>
+                        <li class="footer__catalog-item">Дисплеи жидкокристаллические</li>
+                        <li class="footer__catalog-item">Электродвигатели</li>
+                        <li class="footer__catalog-item">Антенны</li>
+                        <li class="footer__catalog-item">Готовые изделия</li>
+                        <li class="footer__catalog-item">Разрядники</li>
+                        <li class="footer__catalog-item">Датчики</li>
+                        <li class="none">.</li>
+                        <li class="none">.</li>
+                        <li class="none">.</li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+    <div class="footer__bottom"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
