@@ -1175,12 +1175,12 @@ body {
     margin-bottom: 24px;
 }
 
-.swiperMobile {
+.swiper {
     width: 100% !important;
     height: 565px !important;
 }
 
-.swiperMobile-wrapper {
+.swiper-wrapper {
     height: 500px !important;
 }
 
